@@ -1,0 +1,24 @@
+{
+  "experiment": "IEEE-30 and PanTaGruEl external benchmark",
+  "models": {
+    "ieee30": [
+      "S-ANN",
+      "M-ANN",
+      "S-DSS2",
+      "M-DSS2"
+    ],
+    "pantagruel": [
+      "S-ANN",
+      "M-ANN"
+    ]
+  },
+  "noises": [
+    "default",
+    "mixture_010",
+    "erroneous"
+  ],
+  "repeats": 5,
+  "epochs": 200,
+  "bandwidth": 1.0,
+  "lambda_meas": 0.0
+}

@@ -1,0 +1,20 @@
+{
+  "experiment": "Robust-loss family comparison",
+  "model": "ANN",
+  "losses": {
+    "MSE": null,
+    "Modal b=1.0": 1.0,
+    "Modal b=2.0": 2.0,
+    "Huber d=1.0": 1.0,
+    "Tukey c=2.0": 2.0,
+    "Quantile t=0.5": 0.5
+  },
+  "noises": [
+    "default",
+    "mixture_010",
+    "mixture_020",
+    "erroneous"
+  ],
+  "repeats": 5,
+  "epochs": 200
+}

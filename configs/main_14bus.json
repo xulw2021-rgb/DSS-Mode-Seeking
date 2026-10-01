@@ -1,0 +1,33 @@
+{
+  "experiment": "CIGRE-14 main comparison",
+  "models": [
+    "WLS",
+    "Modal-WLS",
+    "S-ANN",
+    "M-ANN",
+    "S-DSS2",
+    "M-DSS2"
+  ],
+  "noises": [
+    "default",
+    "high_gaussian",
+    "student_t3",
+    "laplace",
+    "mixture_005",
+    "mixture_010",
+    "mixture_020",
+    "missing",
+    "erroneous",
+    "missing_erroneous"
+  ],
+  "repeats": 5,
+  "epochs": 200,
+  "bandwidth": 1.0,
+  "lambda_meas": 0.0,
+  "batch": {
+    "ann": 64,
+    "dss2": 32
+  },
+  "lr": 0.003,
+  "seeds": "training_seed=100+repeat; data_seed=500+md5(experiment_id); eval_noise_seed=700+noise_index"
+}

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying paper."
+title: "DSS-Mode-Seeking"
+authors:
+  - family-names: Lin
+    given-names: Yi
+  - family-names: Que
+    given-names: Dingfei
+  - family-names: Xu
+    given-names: Liwen
+repository-code: "https://github.com/xulw2021-rgb/DSS-Mode-Seeking"
+license: MIT
+keywords:
+  - distribution system state estimation
+  - modal regression
+  - robust learning
+  - graph neural networks
+preferred-citation:
+  title: "Mode-Seeking Kernel Losses for Robust Distribution System State Estimation: Contamination-Stability Theory and Cross-System Evidence"
+  type: article
+  authors:
+    - family-names: Lin
+      given-names: Yi
+    - family-names: Que
+      given-names: Dingfei
+    - family-names: Xu
+      given-names: Liwen

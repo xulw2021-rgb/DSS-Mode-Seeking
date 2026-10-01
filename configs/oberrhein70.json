@@ -1,0 +1,24 @@
+{
+  "experiment": "Oberrhein-70 comparison",
+  "models": [
+    "S-ANN",
+    "M-ANN",
+    "S-DSS2",
+    "M-DSS2"
+  ],
+  "noises": [
+    "default",
+    "student_t3",
+    "mixture_010",
+    "erroneous",
+    "missing_erroneous"
+  ],
+  "repeats": 5,
+  "epochs": 100,
+  "bandwidth": 1.0,
+  "lambda_meas": 0.0,
+  "batch": {
+    "ann": 64,
+    "dss2": 16
+  }
+}

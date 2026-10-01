@@ -1,0 +1,10 @@
+Setting,Metric,Value
+ANN bandwidth b0.5,V\_RMSE (20\% mixture),0.1328
+ANN bandwidth b1.0,V\_RMSE (20\% mixture),0.0921
+ANN bandwidth b2.0,V\_RMSE (20\% mixture),0.2133
+ANN bandwidth anneal\_8\_2,V\_RMSE (20\% mixture),0.2580
+M-DSS2 $\lambda_{\mathrm{meas}}=0.0$,V\_RMSE (20\% mixture),0.2853
+M-DSS2 $\lambda_{\mathrm{meas}}=0.05$,V\_RMSE (20\% mixture),0.1144
+M-DSS2 $\lambda_{\mathrm{meas}}=0.1$,V\_RMSE (20\% mixture),0.4364
+M-DSS2 $\lambda_{\mathrm{meas}}=0.2$,V\_RMSE (20\% mixture),0.1878
+M-DSS2 $\lambda_{\mathrm{meas}}=0.5$,V\_RMSE (20\% mixture),0.3550

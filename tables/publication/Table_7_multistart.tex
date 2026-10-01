@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Multi-start solver stability (10 samples x 5 draws). Success = at least one converged start among the first K starts; accuracy from objective-based selection among converged starts (derived from the recorded start-level results).}
+\label{tab:multistart}
+\footnotesize
+\begin{tabular}{llrrrr}
+\toprule
+Noise & Solver & Succ $K{=}1$ & Succ $K{=}10$ & V\_RMSE $K{=}1$ & V\_RMSE $K{=}10$ \\
+\midrule
+Default & WLS & 1.00 & 1.00 & 0.0027 & 0.0027 \\
+Default & Modal-WLS & 0.98 & 0.98 & 0.0030 & 0.0030 \\
+10\% Mixture & WLS & 0.84 & 0.98 & 0.6426 & 0.6529 \\
+10\% Mixture & Modal-WLS & 0.54 & 0.86 & 0.3333 & 0.3135 \\
+20\% Mixture & WLS & 0.66 & 0.88 & 0.8373 & 0.7556 \\
+20\% Mixture & Modal-WLS & 0.40 & 0.80 & 0.7167 & 0.7258 \\
+Erroneous & WLS & 0.96 & 1.00 & 0.0080 & 0.0123 \\
+Erroneous & Modal-WLS & 0.92 & 0.98 & 0.0003 & 0.0003 \\
+\bottomrule
+\end{tabular}
+\end{table}

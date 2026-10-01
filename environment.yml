@@ -1,0 +1,23 @@
+name: dsse-modal
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.26
+  - scipy>=1.13
+  - pandas>=2.2
+  - matplotlib>=3.10
+  - seaborn
+  - pyyaml
+  - tqdm
+  - h5py
+  - networkx
+  - scikit-learn
+  - pytest
+  - pip:
+      - torch==2.1.2
+      - torch_geometric==2.6.1
+      - pandapower==2.14.10
+      - torchmetrics

@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Oberrhein-70 comparison, V\_RMSE (pu), 5 independent training runs, 100 epochs. Mean$\pm$std.}
+\label{tab:70bus}
+\footnotesize
+\begin{tabular}{lcccc}
+\toprule
+Noise & S-ANN & M-ANN & S-DSS2 & M-DSS2 \\
+\midrule
+Default & 0.0115$\pm$0.0000 & 0.0052$\pm$0.0003 & 0.0067$\pm$0.0013 & 0.0076$\pm$0.0019 \\
+Student-$t_3$ & 0.0115$\pm$0.0000 & 0.0052$\pm$0.0003 & 0.0067$\pm$0.0013 & 0.0076$\pm$0.0019 \\
+10\% Mixture & 0.5215$\pm$0.0578 & 0.0365$\pm$0.0272 & 0.3266$\pm$0.1407 & 0.0836$\pm$0.0859 \\
+Erroneous & 0.0436$\pm$0.0085 & 0.0054$\pm$0.0002 & 0.0212$\pm$0.0133 & 0.0087$\pm$0.0023 \\
+Miss+Err & 0.0473$\pm$0.0093 & 0.0054$\pm$0.0003 & 0.0227$\pm$0.0147 & 0.0090$\pm$0.0025 \\
+\bottomrule
+\end{tabular}
+\end{table}

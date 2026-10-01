@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{Robust-loss family comparison (14-bus ANN, corrected pipeline, 5 independent training runs). V\_RMSE (pu), mean$\pm$std. Parameters frozen before the experiments (E5 protocol).}
+\label{tab:robustloss}
+\footnotesize
+\begin{tabular}{lcccc}
+\toprule
+Loss & Default & 10\% Mixture & 20\% Mixture & Erroneous \\
+\midrule
+MSE & 0.0849$\pm$0.0001 & 0.1962$\pm$0.0319 & 0.2676$\pm$0.0479 & 0.0875$\pm$0.0009 \\
+Huber $\delta{=}1.0$ & 0.0848$\pm$0.0001 & 0.2072$\pm$0.0159 & 0.2844$\pm$0.0239 & 0.0878$\pm$0.0011 \\
+Quantile $\tau{=}0.5$ & 0.0850$\pm$0.0001 & 0.1129$\pm$0.0214 & 0.1387$\pm$0.0395 & 0.0850$\pm$0.0010 \\
+Modal $b{=}2.0$ & 0.0723$\pm$0.0173 & 0.1633$\pm$0.0687 & 0.2211$\pm$0.1013 & 0.0742$\pm$0.0187 \\
+Modal $b{=}1.0$ & 0.0554$\pm$0.0021 & 0.0828$\pm$0.0256 & 0.1020$\pm$0.0398 & 0.0553$\pm$0.0017 \\
+Tukey $c{=}2.0$ & 0.0553$\pm$0.0019 & 0.0954$\pm$0.0632 & 0.1203$\pm$0.0952 & 0.0556$\pm$0.0019 \\
+\bottomrule
+\end{tabular}
+\end{table}

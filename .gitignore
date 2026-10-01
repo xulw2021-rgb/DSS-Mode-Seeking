@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+credentials*
+secrets*
+
+# Logs
+logs/
+*.log
+
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Temporary
+tmp/
+temp/
+.cache/
+
+# Generated data and artifacts (recreate via scripts)
+data/*
+!data/README.md
+external/
+reproduced/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out

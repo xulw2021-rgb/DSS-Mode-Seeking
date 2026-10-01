@@ -1,0 +1,21 @@
+{
+  "experiment": "Bandwidth sensitivity",
+  "models": [
+    "M-ANN",
+    "M-DSS2"
+  ],
+  "bandwidths": [
+    "0.5",
+    "1.0",
+    "2.0",
+    "anneal_8_2"
+  ],
+  "noises": [
+    "default",
+    "mixture_005",
+    "mixture_010",
+    "mixture_020"
+  ],
+  "repeats": 5,
+  "epochs": 200
+}
